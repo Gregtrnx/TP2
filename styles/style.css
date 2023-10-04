@@ -1,0 +1,53 @@
+
+/********************/
+/* Barre de navigation*/
+/********************/
+header{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding-left: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+
+.titre{
+    margin-right: auto;
+}
+
+.exp{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.connecter{
+    color: #37A5FF;
+    margin-right: 36px;
+    border: 3px solid;
+    padding: 16px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+/********************/
+/* Page d’accueil   */
+/********************/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(201,201,201);
+background: linear-gradient(180deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 75%);
+    min-height: 100vh;
+
+}
+
+.haut{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 50vw;
+}
+
+
+
