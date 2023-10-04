@@ -1,25 +1,24 @@
-
 /********************/
 /* Barre de navigation*/
 /********************/
-header{
+header {
     display: flex;
     align-items: center;
     gap: 36px;
     padding-left: 16px;
-    box-shadow: 0 2px 5px rgba(0,0,0,1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 
-.titre{
+.titre {
     margin-right: auto;
 }
 
-.exp{
+.exp {
     font-size: x-large;
     font-weight: bold;
 }
 
-.connecter{
+.connecter {
     color: #37A5FF;
     margin-right: 36px;
     border: 3px solid;
@@ -31,23 +30,61 @@ header{
 /********************/
 /* Page d’accueil   */
 /********************/
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(201,201,201);
-background: linear-gradient(180deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 75%);
+    background: rgb(201, 201, 201);
+    background: linear-gradient(180deg, rgba(201, 201, 201, 1) 0%, rgba(255, 255, 255, 1) 75%);
     min-height: 100vh;
 
 }
 
-.haut{
+.haut {
     display: flex;
     align-items: center;
+    margin-top: 100px;
 }
 
-img{
+img {
     width: 50vw;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 500px;
+    margin: auto;
+}
 
+.faire {
+    font-size: x-large;
+}
 
+.const {
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.petit {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.demo {
+    display: flex;
+    gap: 36px;
+}
+
+.bouton1 {
+    border: 3px solid #37A5FF;
+    padding: 14px;
+    color: white;
+    background-color: #37A5FF;
+}
+
+.bouton2 {
+    border: 3px solid;
+    padding: 14px;
+    color: #37A5FF;
+}
